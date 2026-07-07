@@ -71,7 +71,7 @@ footer a { color:var(--sub); }
   <div class="hook">AnthropicがLLM内部に「グローバルワークスペース」を見つけたという研究がX全体を制圧した一日、ヒューマノイド側も中国が年産10万台宣言にAgilityのIPOと材料が渋滞している。市場は円162円とSamsungの爆益決算で半導体の潮目が議論され始めた、AIど真ん中の火曜日だね。今日はX投稿ネタの当たり日だよ。</div>
 </header>
 
-<div class="market"><div class="chip"><b>S&amp;P500</b> 7,537.43 <span class="up">▲0.72%</span></div><div class="chip"><b>NASDAQ</b> 26,121.16 <span class="up">▲1.12%</span></div><div class="chip"><b>SOX</b> 12,900.14 <span class="up">▲2.17%</span></div><div class="chip"><b>日経平均</b> 68,256.96 <span class="down">▼2.12%</span></div><div class="chip"><b>ドル円</b> 161.94 <span class="up">▲0.3%</span></div></div>
+<div class="market"><div class="chip"><b>S&amp;P500</b> 7,537.43 <span class="up">▲0.72%</span></div><div class="chip"><b>NASDAQ</b> 26,121.16 <span class="up">▲1.12%</span></div><div class="chip"><b>SOX</b> 12,900.14 <span class="up">▲2.17%</span></div><div class="chip"><b>日経平均</b> 68,256.96 <span class="down">▼2.12%</span></div><div class="chip"><b>ドル円</b> 161.95 <span class="up">▲0.31%</span></div></div>
 <h2>AI・ロボティクス</h2>
 <article class="ai"><h3><a href="https://www.itmedia.co.jp/aiplus/article/2607/07/2000000162/" target="_blank" rel="noopener">Anthropic、AIの内なる思考が宿る「J-space」を発見　新手法J-lensで可視化</a></h3><div class="meta"><span class="badge">JA</span><span>ITmedia AI+</span><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><p class="summary">AnthropicがLLM内部に、人間の意識研究でいうグローバルワークスペースに似た構造「J-space」が自然発生していることを発見し、Jacobian lensという可視化手法を公開した。モデルが言語化しない隠れた思考を一部観測でき、評価されていることへの気づきや不正コードの意図まで検知できるため、安全性監視への応用が本命とされる。本家ポストは2万いいね超えでバズ最高潮、Axiosなど一般メディアも「Claudeが考える場所」として報じている。意識のグローバルワークスペース理論との接続はまさに神経科学×AIの交差点で、Anthropic系要約でバズった実績のあるアカウントなら今日ポストすべき筆頭ネタ。</p></article>
 <article class="ai"><h3><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RaGRuTzNwTWR5MVNEVnB0QjlXNUU1b1AxQVhqQjZZT1Jra3NNT1p4MktaRl9wV2ZNRHBpMHZQU2NRRjdtUmV4eVhkOTZHN3FSNG5aZXpmUFh2eDRnTmpEaHFxOXQ?oc=5" target="_blank" rel="noopener">中国のヒューマノイド完成機、今年の生産10万台突破へ　政府高官が言及</a></h3><div class="meta"><span class="badge">中文</span><span>新京报</span><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><p class="summary">中国政府の高官が、人形ロボット完成機の国内生産台数が今年10万台を超える見込みだと表明した。中国は13年連続で世界最大の産業用ロボット市場でもあり、量産規模で他国を大きく引き離しつつある。UnitreeやUBTECHの出荷が伸びる中、技術デモの段階から「量が正義」のフェーズに完全に移行した数字と読める。Humanoid Hackの文脈でもワールドカップのAtlas話と並べて引用しやすい。</p></article>
@@ -100,9 +100,10 @@ footer a { color:var(--sub); }
 </div>
 <footer><a href="./">過去のダイジェスト</a></footer>
 <script>
-var FB_URL = "https://ntfy.sh/seika-news-fb-goutfsay", DATE = "2026-07-07";
+var NTFY = "https://ntfy.sh", FB_TOPIC = "seika-news-fb-goutfsay", DATE = "2026-07-07";
 function post(payload, done) {
-  fetch(FB_URL, { method: "POST", body: JSON.stringify(payload) })
+  fetch(NTFY, { method: "POST",
+    body: JSON.stringify({ topic: FB_TOPIC, message: JSON.stringify(payload) }) })
     .then(function(){ document.getElementById("fbdone").textContent = done; })
     .catch(function(){ document.getElementById("fbdone").textContent = "送信に失敗、また後で"; });
 }
