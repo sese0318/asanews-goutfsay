@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>朝のダイジェスト 2026-10-21</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#faf8f4; --card:#ffffff; --ink:#26221c; --sub:#726a5e; --line:#e6e0d4;
+        --accent:#b3541e; --ai:#b3541e; --market:#2f6b4f; --world:#4a5a86; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#1c1a16; --card:#26231e; --ink:#ece7dd; --sub:#a89e8e; --line:#3a352c;
+          --accent:#e0813f; --ai:#e0813f; --market:#6fb392; --world:#8fa3d9; }
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--ink); font-family:'Noto Sans JP',sans-serif;
+       line-height:1.75; padding:24px 16px 64px; max-width:640px; margin:0 auto; }
+header { margin-bottom:24px; }
+.date { font-size:13px; color:var(--sub); letter-spacing:.08em; }
+h1 { font-size:22px; font-weight:700; margin:4px 0 8px; }
+.special { display:inline-block; background:var(--accent); color:#fff; font-size:12px;
+           font-weight:500; padding:2px 10px; border-radius:8px; margin-bottom:8px; }
+.hook { font-size:14px; color:var(--sub); border-left:3px solid var(--accent);
+        padding-left:12px; margin-top:8px; }
+.writer { font-size:12px; color:var(--sub); margin-top:8px; }
+.writer.alt { color:var(--accent); font-weight:500; }
+.fbnote { background:var(--card); border:1px solid var(--line); border-radius:8px;
+          padding:12px 16px; font-size:13px; color:var(--sub); margin:16px 0; }
+.market { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 24px; }
+.chip { background:var(--card); border:1px solid var(--line); border-radius:8px;
+        padding:6px 10px; font-size:12px; }
+.chip b { font-size:13px; }
+.up { color:#2e8b57; } .down { color:#c0392b; }
+h2 { font-size:14px; letter-spacing:.1em; color:var(--sub); margin:32px 0 12px;
+     text-transform:uppercase; }
+article { background:var(--card); border:1px solid var(--line); border-radius:8px;
+          padding:16px; margin-bottom:12px; border-left-width:4px; }
+article.ai { border-left-color:var(--ai); }
+article.market { border-left-color:var(--market); }
+article.world { border-left-color:var(--world); }
+article h3 { font-size:16px; font-weight:700; line-height:1.5; }
+article h3 a { color:var(--ink); text-decoration:none; }
+article h3 a:active { color:var(--accent); }
+.meta { font-size:12px; color:var(--sub); margin:4px 0 8px; display:flex; gap:8px;
+        align-items:center; flex-wrap:wrap; }
+.meta a { color:var(--sub); text-decoration:none; display:inline-flex; gap:4px;
+          align-items:center; }
+.fav { width:14px; height:14px; border-radius:3px; }
+.hero { width:100%; max-height:300px; object-fit:cover; border-radius:8px;
+        margin:8px 0; display:block; }
+.video { position:relative; padding-top:56.25%; margin:8px 0; }
+.video iframe { position:absolute; inset:0; width:100%; height:100%; border:0;
+                border-radius:8px; }
+.twitter-tweet { margin:8px auto !important; }
+.badge { border:1px solid var(--line); border-radius:8px; padding:0 6px; font-size:11px; }
+.followup { background:var(--world); color:#fff; border:none; }
+.fire { letter-spacing:1px; }
+.summary { font-size:14px; }
+.fb { margin-top:48px; background:var(--card); border:1px solid var(--line);
+      border-radius:8px; padding:24px 16px; text-align:center; }
+.fb p { font-size:14px; margin-bottom:16px; }
+.fb-btns { display:flex; gap:8px; justify-content:center; margin-bottom:16px; }
+.fb-btns button { font-family:inherit; font-size:14px; padding:10px 14px; border-radius:8px;
+  border:1px solid var(--line); background:var(--bg); color:var(--ink); cursor:pointer; }
+.fb-btns button.sel { border-color:var(--accent); background:var(--accent); color:#fff; }
+textarea { width:100%; min-height:72px; border:1px solid var(--line); border-radius:8px;
+  padding:10px; font-family:inherit; font-size:14px; background:var(--bg); color:var(--ink); }
+.fb-send { margin-top:8px; font-family:inherit; font-size:14px; padding:10px 24px;
+  border-radius:8px; border:none; background:var(--accent); color:#fff; cursor:pointer; }
+.fb-done { color:var(--sub); font-size:13px; min-height:20px; margin-top:8px; }
+footer { margin-top:32px; text-align:center; font-size:12px; color:var(--sub); }
+footer a { color:var(--sub); }
+</style>
+</head>
+<body>
+<header>
+  <div class="date">2026年10月21日（水）</div>
+  <h1>朝のダイジェスト</h1>
+  <div class="special">フィジカルAIとロボティクス最前線</div>
+  <div class="hook">テスラとSpaceXの合体構想やAnthropicのIPO直前報道など、メガディールと上場ラッシュの足音が一段と騒がしくなってきた。現場目線ではNVIDIAのロボット基盤刷新や三菱電機のヒューマノイド連携など、実社会実装のギアが一段上がった印象を受ける。攻めの投資と守りのセキュリティの両面で、タイムラインの熱量が高い一日だ。</div>
+  <div class="writer alt">✍️ Geminiが書いた（Claudeが使えなかった）</div>
+</header>
+
+<div class="market"><div class="chip"><b>S&amp;P500</b> 7,740.34 <span class="up">▲0.36%</span></div><div class="chip"><b>NASDAQ</b> 26,665.73 <span class="up">▲0.91%</span></div><div class="chip"><b>SOX</b> 11,456.79 <span class="up">▲1.53%</span></div><div class="chip"><b>日経平均</b> 64,075.42 <span class="down">▼1.3%</span></div><div class="chip"><b>ドル円</b> 158.13 <span class="down">▼0.24%</span></div></div>
+<h2>AI・ロボティクス</h2>
+<article class="ai"><h3><a href="https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/" target="_blank" rel="noopener">テスラとSpaceXの取締役会、合併に向けた特別委員会を設置</a></h3><div class="meta"><span class="badge">EN</span><a href="https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32" alt="" loading="lazy"><span>引用元 TechCrunch</span></a><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><img class="hero" src="https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">電気自動車大手のテスラと宇宙開発企業のSpaceXの両社取締役会が、両社の合併を検討するための特別委員会を独立取締役で設置した。イーロン・マスク氏は委員から外れており、今後の事業シナジーや株主への影響を慎重に精査する構えを見せている。AI開発やロボティクス、自動運転などの技術とサプライチェーンの統合が進めば、時価総額でも技術力でも類を見ない巨大コングロマリット（多様な事業分野を傘下に収める巨大複合企業）が誕生することになり、市場や産業界の勢力図を根本から塗り替える可能性がある。</p></article>
+<article class="ai"><h3><a href="https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html" target="_blank" rel="noopener">Anthropic、早ければ今週金曜にもIPOを正式申請へ</a></h3><div class="meta"><span class="badge">EN</span><a href="https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=finance.yahoo.com&sz=32" alt="" loading="lazy"><span>引用元 Yahoo Finance</span></a><span class="badge followup">続報</span><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><img class="hero" src="https://s.yimg.com/lo/mysterio/api/965dce6a6c54959ea6113ffadc410c6d8cf3b626e5f5727f2748197808b0292b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F172ba73a-1737-45e9-a72e-9914dbb2d5cf" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">AIスタートアップの米Anthropicが、早ければ今週金曜日に新規株式公開に向けた申請書類を米証券取引委員会へ提出する見通しとなった。同社は直近で巨額のインフラ投資に伴う損失拡大が報じられているものの、急増する売上成長を武器に株式市場への上場を急ぐ方針だ。フロンティアモデルを開発する専業AI企業として初の大型上場となる公算が大きく、今後の生成AI業界における企業価値評価や資金調達の行方を占う最大の試金石となる。</p></article>
+<article class="ai"><h3><a href="https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data" target="_blank" rel="noopener">NVIDIA、汎用人型ロボット向けIsaac基盤を大幅刷新</a></h3><div class="meta"><span class="badge">EN</span><a href="https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=nvidianews.nvidia.com&sz=32" alt="" loading="lazy"><span>引用元 NVIDIA Newsroom</span></a><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><img class="hero" src="https://iprsoftwaremedia.com/219/files/202610/60166df62390290b4e42955e120a2b98/6ad7dc703d6332c412cb755d_nvidia-isaac-platform/nvidia-isaac-platform_ea97245c-b97b-4ba5-a30e-d4aed319c5d8-prv.jpg?v=ea97245c-b97b-4ba5-a30e-d4aed319c5d8" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">NVIDIAはドイツのベルリンで開催されたイベントで、汎用ヒューマノイド開発を加速するリファレンスモデル（製品開発の手本となる標準設計）や新たなシミュレーション環境を発表した。自律動作するAIエージェントの安全性を担保する保護フレームワークやデータ生成パイプラインも同時に整備されている。ロボットハードウェアを自前で一から設計せずとも高品質な頭脳と身体制御を実装できるようになるため、Physical AIスタートアップの開発スピードと商業化を一気に押し上げる基盤となる。</p></article>
+<article class="ai"><h3><a href="https://www.guandian.cn/article/20261021/616396.html" target="_blank" rel="noopener">中国Unitree、8時間稼働するカンフーヒューマノイド「H2-X」を発表</a></h3><div class="meta"><span class="badge">中文</span><a href="https://www.guandian.cn/article/20261021/616396.html" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.guandian.cn&sz=32" alt="" loading="lazy"><span>引用元 观点网</span></a><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><p class="summary">中国のロボット企業である宇樹科技が、武術の動作を機敏にこなす新型ヒューマノイド「H2-X」を発表した。最長で約8時間の連続稼働を誇り、警備用途などを想定した高度な動的バランスと関節トルク（関節を回転させる力）を備えている。中国勢の強みであるハードウェアの量産力と低コスト化に加えて、長時間の稼働性能と俊敏な身体制御が実証されたことで、実環境での警備や巡回業務への導入現実味が一段と高まっている。</p></article>
+<article class="ai"><h3><a href="https://www.mitsubishielectric.co.jp/ja/pr/2026/1021_rd/" target="_blank" rel="noopener">三菱電機、ヒューマノイドとCNC工作機械が連携する加工システムを開発</a></h3><div class="meta"><span class="badge">JA</span><a href="https://www.mitsubishielectric.co.jp/ja/pr/2026/1021_rd/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.mitsubishielectric.co.jp&sz=32" alt="" loading="lazy"><span>引用元 三菱電機</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://www.mitsubishielectric.co.jp/global/common/img/fb_logo_mitsubishi.gif" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">三菱電機は、ヒューマノイドとCNC工作機械（コンピュータの数値指示によって金属などを自動加工する工作機械）が自律連携する業界初の加工システムを開発した。ワークの着脱や工具交換を作業者に代わって人型ロボットが担い、既存の工場レイアウトを大きく変えずに自動化ラインを構築できる。製造現場の熟練工不足が深刻化する日本において、専用の固定設備を増設することなく柔軟な省人化を達成できる現実解として注目を集めそうだ。</p></article>
+<article class="ai"><h3><a href="https://www.wsj.com/tech/cybersecurity/ai-just-found-a-bug-that-puts-up-to-70-of-the-worlds-websites-at-risk-fd0902ea" target="_blank" rel="noopener">AIが世界のウェブサイトの7割に影響する重大バグを発見</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.wsj.com/tech/cybersecurity/ai-just-found-a-bug-that-puts-up-to-70-of-the-worlds-websites-at-risk-fd0902ea" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.wsj.com&sz=32" alt="" loading="lazy"><span>引用元 WSJ</span></a><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><p class="summary">自律型AIモデルが、世界のインターネットサイトの最大70パーセントを危険に晒す深刻な脆弱性を独自に発見した。OpenAIなどは悪用を防ぐため、公表前に世界規模での緊急修正プログラム配布や協調対応を進めている。AIが人間のセキュリティ専門家を超える速度と規模で未知の欠陥を見つけ出す時代に入ったことを証明しており、サイバー防衛のあり方やAIによる脅威検知のルール策定を劇的に加速させる契機になる。</p></article>
+<article class="ai"><h3><a href="https://finance.yahoo.co.jp/news/detail/dadb331405e5ffcb7bb0642cdddc57bd5e626afd" target="_blank" rel="noopener">米写真販売大手ゲッティが破産申請、生成AIとの競争激化が打撃に</a></h3><div class="meta"><span class="badge">JA</span><a href="https://finance.yahoo.co.jp/news/detail/dadb331405e5ffcb7bb0642cdddc57bd5e626afd" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=finance.yahoo.co.jp&sz=32" alt="" loading="lazy"><span>引用元 時事通信</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://s.yimg.jp/images/finance/common/image/ogp.png" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">世界的な写真およびストックフォト大手のゲッティイメージズが、米連邦破産法第11条の適用を申請した。高品質な画像を誰でも即座に出力できる画像生成AIの普及により、従来のライセンス販売ビジネスが急激な需要減少に直面していた。デジタルコンテンツの知的財産やストックビジネスが生成AIによって根底から破壊された象徴的事例であり、クリエイティブ産業全体の収益モデル再構築を迫る警鐘となっている。</p></article>
+<h2>マーケット</h2>
+<article class="market"><h3><a href="https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rally-tech-firms-025217752.html" target="_blank" rel="noopener">SpaceXの黒字化とAI事業急伸が米株式市場の上昇を牽引</a></h3><div class="meta"><span class="badge">EN</span><a href="https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rally-tech-firms-025217752.html" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=finance.yahoo.com&sz=32" alt="" loading="lazy"><span>引用元 Yahoo Finance</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://s.yimg.com/lo/mysterio/api/a8fe35152239b099a27314b635e46aa348ad983b735784cb499c07ae5ddf5c8b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fafp.com%2Fdd52476f46b141f32b90b009e643a037.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">SpaceXの第3四半期決算において純利益が44億ドルに達し、力強い黒字化を達成したことが米株式市場全体を押し上げた。衛星通信だけでなくAI事業が新たな収益の柱として急成長しており、ハイテク株全般に買い安心感が広がっている。宇宙インフラとAI計算基盤の融合が現実のキャッシュフローを生み始めていることを示しており、投資家のAIマネタイズに対する懸念を和らげる追い風として機能している。</p></article>
+<article class="market"><h3><a href="https://finance.yahoo.com/markets/stocks/article/netflix-stock-sinks-after-announcing-q3-earnings-q4-revenue-forecast-falls-short-of-estimates-204545261.html" target="_blank" rel="noopener">Netflix株が急落、第4四半期の売上高見通しが市場予想に届かず</a></h3><div class="meta"><span class="badge">EN</span><a href="https://finance.yahoo.com/markets/stocks/article/netflix-stock-sinks-after-announcing-q3-earnings-q4-revenue-forecast-falls-short-of-estimates-204545261.html" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=finance.yahoo.com&sz=32" alt="" loading="lazy"><span>引用元 Yahoo Finance</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://s.yimg.com/lo/mysterio/api/bc31134033cfe5354c313189576af109ffafc7075d60f988ee9aa078b2ce70ab/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2F9de44352-4998-4c2d-a335-4737d51bac26_3db8823b4c856f32c76932f5cbeff4a087d37a1dfaa4e946bd9e093777f93f8d.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">動画配信大手のNetflixは、第4四半期の売上高ガイダンス（企業自身が公表する将来の業績見通し）が市場予想を下回ったことを受け、株価が急落した。ウォール街の主要アナリストが一斉に目標株価を引き下げており、成長ペースの鈍化が懸念されている。決算シーズンにおいて高い株価収益率を維持してきた大手ハイテク株に対し、市場の業績ハードルが極めて厳格になっている現実を浮き彫りにした。</p></article>
+<article class="market"><h3><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-10-21/" target="_blank" rel="noopener">企業決算が株価を支える一方、フランス10年債利回りが5パーセントに到達</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.reuters.com/world/china/global-markets-global-markets-2026-10-21/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.reuters.com&sz=32" alt="" loading="lazy"><span>引用元 Reuters</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><p class="summary">欧米市場では堅調な企業業績が株式相場の下値を支えているものの、フランスの10年物国債利回りが節目となる5パーセントの大台を付けた。国内の政情不安と財政赤字の拡大に対する警戒感から、国債の売り圧力が根強く続いている。長期金利の上昇は欧州全体の景気減速リスクを高めるだけでなく、グローバルな資本コストの上昇を通じて世界の株式市場にも冷や水を浴びせかねない。</p></article>
+<h2>世界の動き</h2>
+<article class="world"><h3><a href="https://news.google.com/rss/articles/CBMinAJBVV95cUxOR2tUTGFIM3lDUEo1SnRxOUEzc3NDZHU4RjNkT01ZVDBoVm43dmljWVI5NzlIUjBLVUFKdDhDbkROS19jdllZY2Vtc25HZmJHZEl4X2pmZm04Y08yQzRrcEJaM1FaZF9yZnAtR2FZUlpwZzREekFiRXFJUW1XOURySS1lM0JPS19EZ044TEVwLVRCT050S3Q2WlVwUjZLZm9oNVlfYXFiWDdsUm1ORDhSVmNnUnZjS3VNNzhUODBBdERkWlNxMFVOS3JYUkUxSnhPaXZLcUZNajd6VG12YXJJLWRZZUY5ZjJzYWpJV3VtMFJ0bVEtNWRoZFN3Vm9RcnZqeUhSclloa1JaUXA0OEJ4RGoteXhJVEt0UF9MTA?oc=5" target="_blank" rel="noopener">カナダのハドベイと三菱商事、米銅鉱山「カッパー・ワールド」の建設を承認</a></h3><div class="meta"><span class="badge">EN</span><a href="https://news.google.com/rss/articles/CBMinAJBVV95cUxOR2tUTGFIM3lDUEo1SnRxOUEzc3NDZHU4RjNkT01ZVDBoVm43dmljWVI5NzlIUjBLVUFKdDhDbkROS19jdllZY2Vtc25HZmJHZEl4X2pmZm04Y08yQzRrcEJaM1FaZF9yZnAtR2FZUlpwZzREekFiRXFJUW1XOURySS1lM0JPS19EZ044TEVwLVRCT050S3Q2WlVwUjZLZm9oNVlfYXFiWDdsUm1ORDhSVmNnUnZjS3VNNzhUODBBdERkWlNxMFVOS3JYUkUxSnhPaXZLcUZNajd6VG12YXJJLWRZZUY5ZjJzYWpJV3VtMFJ0bVEtNWRoZFN3Vm9RcnZqeUhSclloa1JaUXA0OEJ4RGoteXhJVEt0UF9MTA?oc=5" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=news.google.com&sz=32" alt="" loading="lazy"><span>引用元 markets.businessinsider.com</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><p class="summary">資源大手のハドベイ・ミネラルズと三菱商事は、米国アリゾナ州の大規模銅鉱山プロジェクトである「カッパー・ワールド」の建設開始を正式に承認した。2029年の初生産を目指し、米国国内における主要な銅供給拠点として開発が進められる。AIデータセンターの電力インフラや電気自動車の普及で世界的な銅不足が懸念される中、サプライチェーンの脱中国と米国内調達を強化する戦略的な一手となる。</p></article>
+<article class="world"><h3><a href="https://www.usnews.com/news/world/articles/2026-10-21/georgian-court-begins-hearing-lawsuit-seeking-ban-on-major-opposition-parties" target="_blank" rel="noopener">ジョージアの裁判所、主要野党の活動禁止を求める訴訟の審理を開始</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.usnews.com/news/world/articles/2026-10-21/georgian-court-begins-hearing-lawsuit-seeking-ban-on-major-opposition-parties" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.usnews.com&sz=32" alt="" loading="lazy"><span>引用元 U.S. News &amp; World Report</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><p class="summary">南コーカサスのジョージアにおいて、与党側が求めている主要な野党勢力の非合法化に向けた訴訟審理が憲法裁判所で始まった。政権側は国家転覆の企てを理由に挙げているが、野党や欧米諸国は独裁化への露骨な動きであるとして強く反発している。ロシアと欧州連合の間で揺れる同国の地政学リスクが一段と緊迫しており、コーカサス地域の通商路やエネルギーパイプラインの安定性にも波及しかねない。</p></article>
+<div class="fb" id="fb">
+  <p>今朝のダイジェスト、どうだった？</p>
+  <div class="fb-btns">
+    <button onclick="rate(this,'good')">😊 良かった</button>
+    <button onclick="rate(this,'ok')">😐 普通</button>
+    <button onclick="rate(this,'bad')">🤔 イマイチ</button>
+  </div>
+  <textarea id="fbtext" placeholder="ひとことあれば（音声入力でもOK）"></textarea>
+  <br><button class="fb-send" onclick="sendText()">送信</button>
+  <div class="fb-done" id="fbdone"></div>
+</div>
+<footer><a href="./">過去のダイジェスト</a></footer>
+<script>
+var NTFY = "https://ntfy.sh", FB_TOPIC = "seika-news-fb-goutfsay", DATE = "2026-10-21";
+function post(payload, done) {
+  fetch(NTFY, { method: "POST",
+    body: JSON.stringify({ topic: FB_TOPIC, message: JSON.stringify(payload) }) })
+    .then(function(){ document.getElementById("fbdone").textContent = done; })
+    .catch(function(){ document.getElementById("fbdone").textContent = "送信に失敗、また後で"; });
+}
+function rate(btn, r) {
+  var btns = document.querySelectorAll(".fb-btns button");
+  for (var i = 0; i < btns.length; i++) btns[i].classList.remove("sel");
+  btn.classList.add("sel");
+  post({ date: DATE, rating: r }, "記録したよ、ありがとう");
+}
+function sendText() {
+  var t = document.getElementById("fbtext").value.trim();
+  if (!t) return;
+  post({ date: DATE, text: t }, "コメント送信したよ");
+  document.getElementById("fbtext").value = "";
+}
+</script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
