@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>朝のダイジェスト 2026-11-05</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#faf8f4; --card:#ffffff; --ink:#26221c; --sub:#726a5e; --line:#e6e0d4;
+        --accent:#b3541e; --ai:#b3541e; --market:#2f6b4f; --world:#4a5a86; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#1c1a16; --card:#26231e; --ink:#ece7dd; --sub:#a89e8e; --line:#3a352c;
+          --accent:#e0813f; --ai:#e0813f; --market:#6fb392; --world:#8fa3d9; }
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--ink); font-family:'Noto Sans JP',sans-serif;
+       line-height:1.75; padding:24px 16px 64px; max-width:640px; margin:0 auto; }
+header { margin-bottom:24px; }
+.date { font-size:13px; color:var(--sub); letter-spacing:.08em; }
+h1 { font-size:22px; font-weight:700; margin:4px 0 8px; }
+.special { display:inline-block; background:var(--accent); color:#fff; font-size:12px;
+           font-weight:500; padding:2px 10px; border-radius:8px; margin-bottom:8px; }
+.hook { font-size:14px; color:var(--sub); border-left:3px solid var(--accent);
+        padding-left:12px; margin-top:8px; }
+.writer { font-size:12px; color:var(--sub); margin-top:8px; }
+.writer.alt { color:var(--accent); font-weight:500; }
+.fbnote { background:var(--card); border:1px solid var(--line); border-radius:8px;
+          padding:12px 16px; font-size:13px; color:var(--sub); margin:16px 0; }
+.market { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 24px; }
+.chip { background:var(--card); border:1px solid var(--line); border-radius:8px;
+        padding:6px 10px; font-size:12px; }
+.chip b { font-size:13px; }
+.up { color:#2e8b57; } .down { color:#c0392b; }
+h2 { font-size:14px; letter-spacing:.1em; color:var(--sub); margin:32px 0 12px;
+     text-transform:uppercase; }
+article { background:var(--card); border:1px solid var(--line); border-radius:8px;
+          padding:16px; margin-bottom:12px; border-left-width:4px; }
+article.ai { border-left-color:var(--ai); }
+article.market { border-left-color:var(--market); }
+article.world { border-left-color:var(--world); }
+article h3 { font-size:16px; font-weight:700; line-height:1.5; }
+article h3 a { color:var(--ink); text-decoration:none; }
+article h3 a:active { color:var(--accent); }
+.meta { font-size:12px; color:var(--sub); margin:4px 0 8px; display:flex; gap:8px;
+        align-items:center; flex-wrap:wrap; }
+.meta a { color:var(--sub); text-decoration:none; display:inline-flex; gap:4px;
+          align-items:center; }
+.fav { width:14px; height:14px; border-radius:3px; }
+.hero { width:100%; max-height:300px; object-fit:cover; border-radius:8px;
+        margin:8px 0; display:block; }
+.video { position:relative; padding-top:56.25%; margin:8px 0; }
+.video iframe { position:absolute; inset:0; width:100%; height:100%; border:0;
+                border-radius:8px; }
+.twitter-tweet { margin:8px auto !important; }
+.badge { border:1px solid var(--line); border-radius:8px; padding:0 6px; font-size:11px; }
+.followup { background:var(--world); color:#fff; border:none; }
+.fire { letter-spacing:1px; }
+.summary { font-size:14px; }
+.fb { margin-top:48px; background:var(--card); border:1px solid var(--line);
+      border-radius:8px; padding:24px 16px; text-align:center; }
+.fb p { font-size:14px; margin-bottom:16px; }
+.fb-btns { display:flex; gap:8px; justify-content:center; margin-bottom:16px; }
+.fb-btns button { font-family:inherit; font-size:14px; padding:10px 14px; border-radius:8px;
+  border:1px solid var(--line); background:var(--bg); color:var(--ink); cursor:pointer; }
+.fb-btns button.sel { border-color:var(--accent); background:var(--accent); color:#fff; }
+textarea { width:100%; min-height:72px; border:1px solid var(--line); border-radius:8px;
+  padding:10px; font-family:inherit; font-size:14px; background:var(--bg); color:var(--ink); }
+.fb-send { margin-top:8px; font-family:inherit; font-size:14px; padding:10px 24px;
+  border-radius:8px; border:none; background:var(--accent); color:#fff; cursor:pointer; }
+.fb-done { color:var(--sub); font-size:13px; min-height:20px; margin-top:8px; }
+footer { margin-top:32px; text-align:center; font-size:12px; color:var(--sub); }
+footer a { color:var(--sub); }
+</style>
+</head>
+<body>
+<header>
+  <div class="date">2026年11月5日（木）</div>
+  <h1>朝のダイジェスト</h1>
+  <div class="special">ヒューマノイド初上場と市場急変</div>
+  <div class="hook">米中間選挙での民主党圧勝を受けて半導体株やAI株が大きく売り込まれ、市場には冷や水が浴びせられたような緊張感が走っている。その一方で、アジリティ・ロボティクスがヒューマノイド専業として歴史的な上場を果たし、物理空間で動くAIの実用化は着実に次のフェーズへ進んだ。荒れる相場の波に惑わされず、ハードウェアとAIが融合する現場の確かな前進を見据えたいところだ。</div>
+  <div class="writer alt">✍️ Geminiが書いた（Claudeが使えなかった）</div>
+</header>
+
+<div class="market"><div class="chip"><b>S&amp;P500</b> 7,461.11 <span class="down">▼2.96%</span></div><div class="chip"><b>NASDAQ</b> 24,680.35 <span class="down">▼4.1%</span></div><div class="chip"><b>SOX</b> 9,368.58 <span class="down">▼8.77%</span></div><div class="chip"><b>日経平均</b> 62,188.63 <span class="down">▼1.42%</span></div><div class="chip"><b>ドル円</b> 157.89 <span class="down">▼0.37%</span></div></div>
+<h2>AI・ロボティクス</h2>
+<article class="ai"><h3><a href="https://www.sbbit.jp/article/st/188126" target="_blank" rel="noopener">米アジリティが人型ロボット専業で初上場、約735億円調達で3億ドル超を受注</a></h3><div class="meta"><span class="badge">JA</span><a href="https://www.sbbit.jp/article/st/188126" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.sbbit.jp&sz=32" alt="" loading="lazy"><span>引用元 ビジネス+IT</span></a><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><p class="summary">人型ロボットの専業メーカーである米アジリティ・ロボティクスがナスダック市場に新規上場し、約735億円を調達するとともに既に3億ドルを超える受注を確保していることが明らかになった。同社は物流現場などで荷物を運ぶ二足歩行ロボットの量産を進めており、エヌビディアなどの大手テック企業からも出資を受けている。これまで研究開発フェーズにとどまると見られがちだったヒューマノイドが、実際に巨額の商用契約を伴って資本市場に受け入れられた意義は極めて大きい。フィジカルAIの社会実装と収益化がいよいよ現実のビジネスとして評価される時代の幕開けを告げる象徴的な出来事といえる。</p></article>
+<article class="ai"><h3><a href="https://www.cls.cn/detail/2524432" target="_blank" rel="noopener">シャオミの人型ロボットが工場で8時間連続稼働、部品仕分けで実用化へ前進</a></h3><div class="meta"><span class="badge">中文</span><a href="https://www.cls.cn/detail/2524432" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.cls.cn&sz=32" alt="" loading="lazy"><span>引用元 财联社</span></a><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><p class="summary">中国のシャオミ（小米）が開発する人型ロボットが、自動車工場の現場において2回の充電を挟みながら8時間連続で自動車部品を仕分ける作業を完遂した。同社はこの実証実験を通じて、複雑な製造ラインにおいて人間と協調しながら安定して長時間稼働できる能力を示している。実験室でのデモ動画から脱却し、実際の工場環境でフルシフト勤務に耐えうる耐久性と信頼性を証明した点は大きな進歩だ。中国勢が圧倒的な製造サプライチェーンを背景に、実用化のスピードを一気に加速させている現実を浮き彫りにしている。</p></article>
+<article class="ai"><h3><a href="https://www.rfi.fr/cn/%E7%BB%8F%E8%B4%B8/20261105-%E8%BD%AF%E9%93%B6%E4%BB%A554%E4%BA%BF%E7%BE%8E%E5%85%83%E6%94%B6%E8%B4%ADabb%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%9A%E5%8A%A1%E4%BA%A4%E6%98%93%E7%A1%AE%E8%AE%A4%E8%A2%AB%E4%B8%AD%E6%96%B9%E9%98%BB%E6%AD%A2" target="_blank" rel="noopener">中国当局、ソフトバンクGによるスイスABBロボット事業の買収を阻止</a></h3><div class="meta"><span class="badge">中文</span><a href="https://www.rfi.fr/cn/%E7%BB%8F%E8%B4%B8/20261105-%E8%BD%AF%E9%93%B6%E4%BB%A554%E4%BA%BF%E7%BE%8E%E5%85%83%E6%94%B6%E8%B4%ADabb%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%9A%E5%8A%A1%E4%BA%A4%E6%98%93%E7%A1%AE%E8%AE%A4%E8%A2%AB%E4%B8%AD%E6%96%B9%E9%98%BB%E6%AD%A2" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.rfi.fr&sz=32" alt="" loading="lazy"><span>引用元 RFI</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><p class="summary">ソフトバンクグループが計画していたスイス重電大手ABBのロボット事業買収について、中国の独占禁止当局が承認を見送り事実上阻止したことが判明した。買収額は約54億ドル規模に達する見込みだったが、産業用ロボット市場でのシェア集中や技術流出を懸念した中国側が難色を示した形だ。産業用ロボットは製造業の基盤を握る安全保障上の戦略物資と見なされており、各国の地政学的な思惑がM&amp;A（企業の合併や買収のこと）を直接左右するリスクが浮き彫りになった。グローバルに展開するロボット企業のサプライチェーン再編や資本提携は、今後一段と厳しい国家間の綱引きに巻き込まれる可能性が高い。</p></article>
+<article class="ai"><h3><a href="https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/" target="_blank" rel="noopener">ジップラインが評価額215億ドルに到達、ウォルマートとドローン配送拡大</a></h3><div class="meta"><span class="badge">EN</span><a href="https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32" alt="" loading="lazy"><span>引用元 TechCrunch</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://techcrunch.com/wp-content/uploads/2022/09/Zipline-Package-Drop.jpg?resize=1200,675" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">自律飛行ドローンを手掛けるジップラインが15億ドルの資金調達を実施し、企業評価額が215億ドルに達したと同時に、小売大手ウォルマートとの配送連携を全米規模で拡大すると発表した。同社は医療物資の配送で培った高精度の自律飛行技術を一般の小売配送に適用し、数百万件規模の商用フライト実績を積み上げている。物理世界で自律的にタスクをこなすロボティクス技術が、大企業とのパートナーシップによって本格的な商業スケールに到達した好例といえる。ハードウェアと運行管制ソフトウェアを統合したプラットフォームとしての強みが、高い市場価値につながっている。</p></article>
+<article class="ai"><h3><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXzMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5" target="_blank" rel="noopener">中国AI新興のMoonshot、米国の輸出規制を回避して欧州経由で最新GPUを確保か</a></h3><div class="meta"><span class="badge">EN</span><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVHSAYQBQVVfeXFMTXVzSHktMk1IYUR5bm45MWpEQmRpZkkwbS1LSVNZZm02Q05uZE56ekhLZjBKV0RLWlVhdVoteHFra2hPOFdMNXEweDc4eUhvWTlqQWxwcXzMdURoMzVmUnBaMFRBc0RtTG1FQXhSekFZeDhSM25Yc3o2THdGckl0cEtLSG9q?oc=5" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=news.google.com&sz=32" alt="" loading="lazy"><span>引用元 CNBC</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><p class="summary">中国の有力AIスタートアップであるMoonshot AI（月之暗面）が、米国の対中輸出規制を回避する目的で欧州のデータセンターを経由してエヌビディアの最新チップであるBlackwellにアクセスしていると報じられた。米国政府による先端半導体の輸出制限が強化されるなか、中国の開発拠点が国外のクラウドインフラを遠隔利用して最先端モデルの開発を継続している実態を示している。国家間の半導体包囲網が厳格化しても、グローバルな計算資源へのアクセスルートを完全に封じることの難しさを証明する動きだ。フロンティアモデルの開発競争において、計算資源をめぐる抜け道探しと規制強化のいたちごっこが続くことを示唆している。</p></article>
+<article class="ai"><h3><a href="https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/" target="_blank" rel="noopener">PFNが翻訳特化型LLMをオープン化、端末上で動く超軽量版も提供</a></h3><div class="meta"><span class="badge">JA</span><a href="https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.itmedia.co.jp&sz=32" alt="" loading="lazy"><span>引用元 ITmedia AI+</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><img class="hero" src="https://www.itmedia.co.jp/aiplus/article/ogp/2611/05/2000002900/10011377/2048" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">Preferred Networksは、世界最高水準の性能を誇る翻訳特化型の大規模言語モデルであるPLaMo 3 Translateをオープンウェイトで公開した。パラメータ数は0.8Bから31Bまでの4サイズが用意されており、最小モデルはスマートフォンや組み込み機器などの端末上で直接動作するオンデバイスAI（クラウドを介さず機器本体のチップで直接AIを動かす技術）にも対応している。クラウド依存に伴うレイテンシや通信コスト、機密情報の流出リスクを回避できるため、現場の産業機器やロボットへの組み込み用途として極めて実用性が高い。国内企業が自前で高品質な特化型モデルをオープンソースコミュニティに提供した点でも注目に値する。</p></article>
+<h2>マーケット</h2>
+<article class="market"><h3><a href="https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/" target="_blank" rel="noopener">米中間選挙で民主党が圧勝、AIデータセンターの電力規制懸念でハイテク株が急落</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.reuters.com&sz=32" alt="" loading="lazy"><span>引用元 Reuters</span></a><span class="badge followup">続報</span><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><p class="summary">米中間選挙において民主党が上下両院で地滑り的な大勝利を収めたことを受け、AI開発やデータセンター拡張に伴う電力網への負荷を問題視する規制強化への懸念から関連銘柄が急落した。昨日のテキサス州知事選の結果に端を発したデータセンターへの逆風が議会全体へ波及し、ナスダックが4％超安、SOX指数が8％超安と市場全体を揺るがす売りにつながっている。これまでAIブームを牽引してきた巨額の設備投資シナリオに政策的なブレーキがかかるリスクが顕在化し、投資家の間で先行きへの警戒感が一気に高まった。オルカンや半導体株を保有する個人投資家にとっても、政治力学の変化がAI成長株の評価にどう波及するかを冷静に見極めるべき転換点といえる。</p></article>
+<article class="market"><h3><a href="https://finance.yahoo.com/technology/article/qualcomm-tops-q4-estimates-but-q1-earnings-outlook-falls-short-sending-stock-lower-135230177.html" target="_blank" rel="noopener">クアルコム、第4四半期実績は予想超えも第1四半期の見通し未達で時間外下落</a></h3><div class="meta"><span class="badge">EN</span><a href="https://finance.yahoo.com/technology/article/qualcomm-tops-q4-estimates-but-q1-earnings-outlook-falls-short-sending-stock-lower-135230177.html" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=finance.yahoo.com&sz=32" alt="" loading="lazy"><span>引用元 Yahoo Finance</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://s.yimg.com/lo/mysterio/api/7ff3494af06a2f31d0ca18b55ddab4b91f5ce2b68f0539f0017d77bed1629668/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F8eebcdeb-efe6-417a-834d-24b9fe312205" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">通信用半導体大手の米クアルコムが発表した第4四半期決算は売上高と純利益ともに市場予想を上回ったものの、続く第1四半期のガイダンス（企業が自ら公表する次期の業績予想のこと）が市場予想に届かず時間外取引で株価が下落した。スマートフォン市場の回復が一部で鈍化していることに加え、次世代AI端末向けのチップ出荷時期に関する慎重な見方が重荷となった形だ。好決算であっても先行きの見通しが少しでも期待を下回ると激しく売り込まれる、現在の半導体セクターの神経質な地合いを如実に反映している。ハイテク株全般に調整圧力がかかるなか、個別銘柄の需要の持続性に対する市場のハードルが一段と上がっている証左だ。</p></article>
+<article class="market"><h3><a href="https://www.reuters.com/jp/opinion/D3WQWWFSW5L5FNQT5HF7LCONYE-2026-11-05/" target="_blank" rel="noopener">東京外為市場でドル円は157円台後半、株安と米金利低下を受けてもみ合い</a></h3><div class="meta"><span class="badge">JA</span><a href="https://www.reuters.com/jp/opinion/D3WQWWFSW5L5FNQT5HF7LCONYE-2026-11-05/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.reuters.com&sz=32" alt="" loading="lazy"><span>引用元 Reuters</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><p class="summary">東京外国為替市場のドル円相場は、米中間選挙後の米株安や米長期金利の低下、原油先物の下落をにらみながら157円台後半での小幅な値動きにとどまった。一時はリスク回避の円買いから円高ドル安に振れる場面もあったが、輸入企業による実需のドル買いが下値を支えて膠着状態が続いている。米国の政治情勢が激変するなかでも為替市場は即座に一方向へトレンドを作らず、明日に控える米雇用統計などの経済指標を見極めたい姿勢が強い。積立投資を行う個人にとっては、為替の乱高下に惑わされずに長期的な購買力平価の観点から為替水準を観察することが肝要となる。</p></article>
+<h2>世界の動き</h2>
+<article class="world"><h3><a href="https://ua.news/en/world/u-sibiru-vibukhnuv-magistralnii-gazoprovid-spalakhnula-masshtabna-pozhezha" target="_blank" rel="noopener">ロシアのシベリアで主要ガスパイプラインが爆発、大規模火災が発生</a></h3><div class="meta"><span class="badge">EN</span><a href="https://ua.news/en/world/u-sibiru-vibukhnuv-magistralnii-gazoprovid-spalakhnula-masshtabna-pozhezha" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=ua.news&sz=32" alt="" loading="lazy"><span>引用元 UA.NEWS</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><img class="hero" src="https://cdn-cabinet.ua.news/uploads/images/25/photo_2026_11_05_17_07_14.webp" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">ロシアのシベリア地方を通る主要な天然ガスパイプラインで大規模な爆発事故が発生し、激しい炎が燃え上がる事態となった。当局は消火活動と原因究明を進めているが、輸送ルートの損傷に伴い近隣地域へのエネルギー供給や輸出網への一時的な影響が懸念されている。ウクライナ情勢に伴う地政学的な緊張が続くなかで起きた重要インフラの破損は、事故か破壊工作かを問わず欧州やアジアのエネルギー市場に心理的な波紋を広げやすい。世界のエネルギー輸送網の脆弱性が改めて意識されることで、原油や天然ガスなどのコモディティ（品質に大きな差がなく市場で標準的に取引される一次産品のこと）価格の不安定化を招く要因になりうる。</p></article>
+<article class="world"><h3><a href="https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html" target="_blank" rel="noopener">世界最大のオリーブ油大手が株価20％急落、競合他社の買収合意で勢力図激変</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.cnbc.com&sz=32" alt="" loading="lazy"><span>引用元 CNBC</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><img class="hero" src="https://image.cnbcfm.com/api/v1/image/108334751-1784039074271-gettyimages-1060884260-MCP_5888.jpeg?v=1784039218&amp;amp;w=1920&amp;amp;h=1080" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">世界最大のオリーブオイル製造企業が、主要なライバル企業同士による電撃的な経営統合の合意を受けて市場シェア喪失への懸念から株価が20％急落した。気候変動による原料不足や価格高騰に直面してきた食用油業界において、競合の巨大化は価格決定力や調達網で圧倒的に不利に働くとの見方が広がっている。食品インフレに苦しむ欧州の消費者市場において、寡占化の進展が将来的な小売価格やサプライチェーン全体に及ぼす影響は無視できない。原材料高に直面する伝統的な製造業が、企業再編を通じていかに生き残りを図るかというグローバルな産業構造の変化を象徴している。</p></article>
+<div class="fb" id="fb">
+  <p>今朝のダイジェスト、どうだった？</p>
+  <div class="fb-btns">
+    <button onclick="rate(this,'good')">😊 良かった</button>
+    <button onclick="rate(this,'ok')">😐 普通</button>
+    <button onclick="rate(this,'bad')">🤔 イマイチ</button>
+  </div>
+  <textarea id="fbtext" placeholder="ひとことあれば（音声入力でもOK）"></textarea>
+  <br><button class="fb-send" onclick="sendText()">送信</button>
+  <div class="fb-done" id="fbdone"></div>
+</div>
+<footer><a href="./">過去のダイジェスト</a></footer>
+<script>
+var NTFY = "https://ntfy.sh", FB_TOPIC = "seika-news-fb-goutfsay", DATE = "2026-11-05";
+function post(payload, done) {
+  fetch(NTFY, { method: "POST",
+    body: JSON.stringify({ topic: FB_TOPIC, message: JSON.stringify(payload) }) })
+    .then(function(){ document.getElementById("fbdone").textContent = done; })
+    .catch(function(){ document.getElementById("fbdone").textContent = "送信に失敗、また後で"; });
+}
+function rate(btn, r) {
+  var btns = document.querySelectorAll(".fb-btns button");
+  for (var i = 0; i < btns.length; i++) btns[i].classList.remove("sel");
+  btn.classList.add("sel");
+  post({ date: DATE, rating: r }, "記録したよ、ありがとう");
+}
+function sendText() {
+  var t = document.getElementById("fbtext").value.trim();
+  if (!t) return;
+  post({ date: DATE, text: t }, "コメント送信したよ");
+  document.getElementById("fbtext").value = "";
+}
+</script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
