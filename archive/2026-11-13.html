@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>朝のダイジェスト 2026-11-13</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#faf8f4; --card:#ffffff; --ink:#26221c; --sub:#726a5e; --line:#e6e0d4;
+        --accent:#b3541e; --ai:#b3541e; --market:#2f6b4f; --world:#4a5a86; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#1c1a16; --card:#26231e; --ink:#ece7dd; --sub:#a89e8e; --line:#3a352c;
+          --accent:#e0813f; --ai:#e0813f; --market:#6fb392; --world:#8fa3d9; }
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--ink); font-family:'Noto Sans JP',sans-serif;
+       line-height:1.75; padding:24px 16px 64px; max-width:640px; margin:0 auto; }
+header { margin-bottom:24px; }
+.date { font-size:13px; color:var(--sub); letter-spacing:.08em; }
+h1 { font-size:22px; font-weight:700; margin:4px 0 8px; }
+.special { display:inline-block; background:var(--accent); color:#fff; font-size:12px;
+           font-weight:500; padding:2px 10px; border-radius:8px; margin-bottom:8px; }
+.hook { font-size:14px; color:var(--sub); border-left:3px solid var(--accent);
+        padding-left:12px; margin-top:8px; }
+.writer { font-size:12px; color:var(--sub); margin-top:8px; }
+.writer.alt { color:var(--accent); font-weight:500; }
+.fbnote { background:var(--card); border:1px solid var(--line); border-radius:8px;
+          padding:12px 16px; font-size:13px; color:var(--sub); margin:16px 0; }
+.market { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 24px; }
+.chip { background:var(--card); border:1px solid var(--line); border-radius:8px;
+        padding:6px 10px; font-size:12px; }
+.chip b { font-size:13px; }
+.up { color:#2e8b57; } .down { color:#c0392b; }
+h2 { font-size:14px; letter-spacing:.1em; color:var(--sub); margin:32px 0 12px;
+     text-transform:uppercase; }
+article { background:var(--card); border:1px solid var(--line); border-radius:8px;
+          padding:16px; margin-bottom:12px; border-left-width:4px; }
+article.ai { border-left-color:var(--ai); }
+article.market { border-left-color:var(--market); }
+article.world { border-left-color:var(--world); }
+article h3 { font-size:16px; font-weight:700; line-height:1.5; }
+article h3 a { color:var(--ink); text-decoration:none; }
+article h3 a:active { color:var(--accent); }
+.meta { font-size:12px; color:var(--sub); margin:4px 0 8px; display:flex; gap:8px;
+        align-items:center; flex-wrap:wrap; }
+.meta a { color:var(--sub); text-decoration:none; display:inline-flex; gap:4px;
+          align-items:center; }
+.fav { width:14px; height:14px; border-radius:3px; }
+.hero { width:100%; max-height:300px; object-fit:cover; border-radius:8px;
+        margin:8px 0; display:block; }
+.video { position:relative; padding-top:56.25%; margin:8px 0; }
+.video iframe { position:absolute; inset:0; width:100%; height:100%; border:0;
+                border-radius:8px; }
+.twitter-tweet { margin:8px auto !important; }
+.badge { border:1px solid var(--line); border-radius:8px; padding:0 6px; font-size:11px; }
+.followup { background:var(--world); color:#fff; border:none; }
+.fire { letter-spacing:1px; }
+.summary { font-size:14px; }
+.fb { margin-top:48px; background:var(--card); border:1px solid var(--line);
+      border-radius:8px; padding:24px 16px; text-align:center; }
+.fb p { font-size:14px; margin-bottom:16px; }
+.fb-btns { display:flex; gap:8px; justify-content:center; margin-bottom:16px; }
+.fb-btns button { font-family:inherit; font-size:14px; padding:10px 14px; border-radius:8px;
+  border:1px solid var(--line); background:var(--bg); color:var(--ink); cursor:pointer; }
+.fb-btns button.sel { border-color:var(--accent); background:var(--accent); color:#fff; }
+textarea { width:100%; min-height:72px; border:1px solid var(--line); border-radius:8px;
+  padding:10px; font-family:inherit; font-size:14px; background:var(--bg); color:var(--ink); }
+.fb-send { margin-top:8px; font-family:inherit; font-size:14px; padding:10px 24px;
+  border-radius:8px; border:none; background:var(--accent); color:#fff; cursor:pointer; }
+.fb-done { color:var(--sub); font-size:13px; min-height:20px; margin-top:8px; }
+footer { margin-top:32px; text-align:center; font-size:12px; color:var(--sub); }
+footer a { color:var(--sub); }
+</style>
+</head>
+<body>
+<header>
+  <div class="date">2026年11月13日（金）</div>
+  <h1>朝のダイジェスト</h1>
+  <div class="special">NVIDIAフアン辞任特集</div>
+  <div class="hook">ジェンスン・フアンがNVIDIAのCEOを辞めた。AIブームの象徴が消えた翌日、株は売られ、議会は動き、社員は復帰を求めて署名を集めている。その裏でAnthropicのIPOには6倍の応募が入り、ヒューマノイド専業メーカーが米国で初上場と、資金の流れは止まっていない。</div>
+  <div class="writer">✍️ Claudeが書いた</div>
+</header>
+
+<div class="market"><div class="chip"><b>S&amp;P500</b> 7,592.4 <span class="down">▼0.35%</span></div><div class="chip"><b>NASDAQ</b> 25,366.09 <span class="down">▼0.39%</span></div><div class="chip"><b>SOX</b> 10,506.67 <span class="down">▼0.54%</span></div><div class="chip"><b>日経平均</b> 61,207.48 <span class="up">▲0.64%</span></div><div class="chip"><b>ドル円</b> 159.97 <span class="up">▲0.15%</span></div></div>
+<h2>AI・ロボティクス</h2>
+<article class="ai"><h3><a href="https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/" target="_blank" rel="noopener">【続報】ジェンスン・フアン氏がNVIDIAのCEOを辞任、不倫問題が安全保障の論点に</a></h3><div class="meta"><span class="badge">EN</span><a href="https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32" alt="" loading="lazy"><span>引用元 TechCrunch</span></a><span class="badge followup">続報</span><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><img class="hero" src="https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">NVIDIAのジェンスン・フアン氏が、不倫問題を受けてCEOを辞任した。Reutersは別の従業員との関係も報じ、TechCrunchは3件目の関係が報じられたと伝えている。米中が最先端AIインフラの整備を競う中での出来事で、TechCrunchは国家安全保障に影響しうると指摘する。社内ではフアン氏の復帰を求める従業員の署名活動が始まったとWiredが報じており、後任選びが半導体株全体の焦点になる。</p></article>
+<article class="ai"><h3><a href="https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/" target="_blank" rel="noopener">フアン氏の退任で、NVIDIAのオープンソースAI支援に疑問符</a></h3><div class="meta"><span class="badge">EN</span><a href="https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32" alt="" loading="lazy"><span>引用元 TechCrunch</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">フアン氏の辞任により、NVIDIAがオープンソース（設計図にあたるコードやモデルを公開し、誰でも使えて改良できるようにする開発方式）のAIを支援し続けるのかが問われている。対象はHugging Faceの買収、オープンウェイトモデルの公開、規制への反対姿勢などだ。Hugging FaceのCEOは退任後もオープンソースAIのために戦い続けると表明したが、129億ドルの買収の行方には疑問が出ている。ロボット向けを含む公開モデルに頼る開発者やスタートアップにとって、後任CEOの方針は事業の前提に関わる。</p></article>
+<article class="ai"><h3><a href="https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/" target="_blank" rel="noopener">OpenAI・Google・Anthropicに、フロンティアAI開発の停止を求める訴訟</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.reuters.com&sz=32" alt="" loading="lazy"><span>引用元 Reuters</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><p class="summary">OpenAI、Google、Anthropicが、フロンティアモデル開発の差し止め（裁判所が特定の行為をやめるよう命じること）を求める訴訟を起こされたとReutersが報じた。CBS Newsによると、訴状は「AI開発企業は自社の技術を制御できていない」と主張している。開発そのものの停止を司法に求める動きで、規制をめぐる議論が法廷に持ち込まれた。AnthropicのIPO直前という時期もあり、投資家がリスク要因として意識する可能性がある。</p></article>
+<article class="ai"><h3><a href="https://www.techtarget.com/news/agility-robotics-goes-public-as-first-us-specialist-humanoid-maker/874567/" target="_blank" rel="noopener">Agility Roboticsが上場、米国初のヒューマノイド専業の公開企業に</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.techtarget.com/news/agility-robotics-goes-public-as-first-us-specialist-humanoid-maker/874567/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.techtarget.com&sz=32" alt="" loading="lazy"><span>引用元 TechTarget</span></a><span class="fire" title="X投稿ネタ度">🔥🔥🔥</span></div><img class="hero" src="https://imgproxy.divecdn.com/RxtFP27pIMXFMhIpuS-meLhPisD4TcrXzIC3-HVvWco/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9IdW1hbm9pZC5qcGc=.webp" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">Agility Roboticsが株式を公開し、ヒューマノイド専業メーカーとして米国で初めての上場企業になったとTechTargetが報じた。これまで未公開企業の資金調達額でしか測れなかったヒューマノイド事業の実力が、今後は開示される売上や受注といった数字で市場に評価される。同社の株価と業績は、Figure AIなど後続の上場観測がある企業の評価の物差しにもなる。Physical AI業界にとっては、公開市場という新しい資金調達ルートが開いた節目だ。</p></article>
+<article class="ai"><h3><a href="https://www.prnasia.com/story/556210-1.shtml" target="_blank" rel="noopener">思霊機器人（Agile Robots）がシリーズFで5億ドル調達、評価額85億ドル</a></h3><div class="meta"><span class="badge">中文</span><a href="https://www.prnasia.com/story/556210-1.shtml" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.prnasia.com&sz=32" alt="" loading="lazy"><span>引用元 美通社</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://mmx.prnasia.com/media/MS2034237/20261112212825EST_image_5.jpg?id=OA3076516&amp;p=medium600" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">思霊機器人（Agile Robots）が5億ドルのシリーズF（スタートアップの資金調達で6回目前後にあたる後期の段階）を完了し、評価額は85億ドルに達した。SiliconANGLEによればソフトバンクが主導しており、同社は資金をPhysical AIの実用化と世界展開の加速に充てるとしている。同社は同じ日に、NVIDIA Isaac GR00Tを基盤とするヒューマノイドのリファレンス機「Agile ONE SN」も発表した。ソフトバンクのロボット分野への資金投下が続いていることを示す案件だ。</p></article>
+<article class="ai"><h3><a href="https://www.reuters.com/business/us-humanoid-robot-production-could-hit-400000-by-2030-deployment-ramps-jp-morgan-2026-11-12/" target="_blank" rel="noopener">JPモルガン予測、米国のヒューマノイド生産は2030年に最大40万台</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.reuters.com/business/us-humanoid-robot-production-could-hit-400000-by-2030-deployment-ramps-jp-morgan-2026-11-12/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.reuters.com&sz=32" alt="" loading="lazy"><span>引用元 Reuters</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><p class="summary">JPモルガンは、現場導入の拡大に伴い、米国のヒューマノイド生産が2030年までに最大40万台に達しうるとの見通しを示した。同じ日に、物流大手GXOとApptronikが最大1000台の導入可能性を計画していることも報じられた。国内では矢野経済研究所が、Physical AIロボットの世界出荷が2035年に321万台になると予測している。モルガン・スタンレーが商用化は1年遅れると見た直後だけに、強気と慎重の予測が並ぶ状況で、数字を引用する際は前提の確認が必要だ。</p></article>
+<article class="ai"><h3><a href="https://www.itmedia.co.jp/news/article/2611/13/2000003162/" target="_blank" rel="noopener">Google、高速・低価格の「Gemini 4 Hydrogen」を発表 無料ユーザーも利用可能</a></h3><div class="meta"><span class="badge">JA</span><a href="https://www.itmedia.co.jp/news/article/2611/13/2000003162/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.itmedia.co.jp&sz=32" alt="" loading="lazy"><span>引用元 ITmedia AI+</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003162/10012050/2048" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">Googleは、AIエージェントの作業や日常的なコーディング向けの高速・高効率モデル「Gemini 4 Hydrogen」を発表した。「Gemini 3.8 Flash」の約2.5倍の速さでタスクを終え、推論の深さを4段階から選べる。APIやGeminiアプリで同日から順次提供され、検索のAI Modeにも搭載される。最上位の「Gemini 4 Carbon」に続く投入で、速度と価格を武器に日常利用の領域を取りにきた。</p></article>
+<h2>マーケット</h2>
+<article class="market"><h3><a href="https://www.reuters.com/business/nvidia-pe-falls-14-year-low-ceo-exit-ai-worries-cloud-bargain-2026-11-12/" target="_blank" rel="noopener">NVIDIAのPERが14年ぶり低水準、17日はフアン氏不在で初の決算</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.reuters.com/business/nvidia-pe-falls-14-year-low-ceo-exit-ai-worries-cloud-bargain-2026-11-12/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.reuters.com&sz=32" alt="" loading="lazy"><span>引用元 Reuters</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><p class="summary">NVIDIAのPER（株価が1株あたり利益の何倍かを示す指標。低いほど利益に対して株価が割安）が14年ぶりの低水準まで下がったとReutersが報じた。ただしCEO退任とAI需要への懸念が、その割安さに影を落としているという。12日の米株式市場はNVIDIA安が重荷となって下落し、競合の半導体株は急騰した。17日の決算を前に複数のアナリストが格下げする一方、個人投資家は過去にない規模で押し目を買っており、半導体株やFANG+の積立には当面値動きの荒い局面が続きそうだ。</p></article>
+<article class="market"><h3><a href="https://www.reuters.com/legal/transactional/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-2026-11-12/" target="_blank" rel="noopener">【続報】AnthropicのIPO、募集枠の約6倍の応募が集まる</a></h3><div class="meta"><span class="badge">EN</span><a href="https://www.reuters.com/legal/transactional/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-2026-11-12/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.reuters.com&sz=32" alt="" loading="lazy"><span>引用元 Reuters</span></a><span class="badge followup">続報</span><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><p class="summary">AnthropicのIPOが約6倍のオーバーサブスクライブ（売り出す株数を上回る買い注文が集まること。応募超過）になっていると、Bloombergの報道をReutersが伝えた。仮条件は1株70〜78ドルで、評価額は最大1.404兆ドルと既に報じられている。Barron&#x27;sは「この価格は突飛ではない」と強気の論拠を示し、CNBCのジム・クレイマー氏は3つの疑問が残ると指摘した。NVIDIA騒動でAI株が揺れる中でも、最大級のAI上場への需要は落ちていない。</p></article>
+<article class="market"><h3><a href="https://www.asahi.com/articles/ASVCD62W2VCDUHBI04NM.html" target="_blank" rel="noopener">【続報】円が約2カ月半ぶりに一時160円台、米利上げ観測で</a></h3><div class="meta"><span class="badge">JA</span><a href="https://www.asahi.com/articles/ASVCD62W2VCDUHBI04NM.html" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.asahi.com&sz=32" alt="" loading="lazy"><span>引用元 朝日新聞</span></a><span class="badge followup">続報</span><span class="fire" title="X投稿ネタ度">🔥</span></div><img class="hero" src="https://imgopt.asahi.com/ogp/AS20261113000342_comm.jpg" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">円相場が一時1ドル＝160円03銭まで下落し、約2カ月半ぶりの円安水準をつけた。背景は米国の利上げ（中央銀行が政策金利を引き上げること。その国の通貨が買われやすくなる）観測の強まりで、13日正午時点でも159円台後半で推移している。為替介入への警戒感が円の下支えになっているが、160円が攻防ラインとして意識されている。円安はオルカンや米国株の円建て評価額を押し上げる一方、新規の積立は割高な為替レートで買うことになる。</p></article>
+<h2>世界の動き</h2>
+<article class="world"><h3><a href="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/" target="_blank" rel="noopener">米民主党がNVIDIAの調査を開始、フアン氏とトランプ氏の「計略」を書簡で批判</a></h3><div class="meta"><span class="badge">EN</span><a href="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32" alt="" loading="lazy"><span>引用元 TechCrunch</span></a><span class="fire" title="X投稿ネタ度">🔥🔥</span></div><img class="hero" src="https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205211212-1.jpg?resize=1200,800" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">米民主党の議員らが、NVIDIAの中国向け販売とトランプ大統領との取引をめぐる調査を始め、フアン氏の「計略」を厳しく批判する書簡を送った。スパイ疑惑が報じられて以降、議会による調査はこれで2件目になる。問題が経営者個人の不祥事から、対中半導体販売という政策の領域に広がった。NVIDIAの中国ビジネスの先行きに、政治リスクが加わった形だ。</p></article>
+<article class="world"><h3><a href="https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/" target="_blank" rel="noopener">Microsoft 365が世界規模で障害、ChatGPTとClaudeの連携機能にも波及</a></h3><div class="meta"><span class="badge">JA</span><a href="https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/" target="_blank" rel="noopener"><img class="fav" src="https://www.google.com/s2/favicons?domain=www.itmedia.co.jp&sz=32" alt="" loading="lazy"><span>引用元 ITmedia AI+</span></a><span class="fire" title="X投稿ネタ度">🔥</span></div><img class="hero" src="https://www.itmedia.co.jp/aiplus/article/ogp/2611/13/2000003164/10012056/2048" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"><p class="summary">「Microsoft 365」の複数サービスで世界的な障害が発生し、Outlookのメールなどが使えなくなった。Global Newsの報道時点で、Microsoftは修正のめどを示していない。OpenAIとAnthropicは、ChatGPTとClaudeのMicrosoft 365コネクタ（AIを外部サービスにつなぎ、メールや文書を読み書きさせる連携機能）が「ほとんどのリクエストで動作しない」と報告している。AIに業務を任せるほど、接続先のクラウド障害がAI側の停止に直結することを示した。</p></article>
+<div class="fb" id="fb">
+  <p>今朝のダイジェスト、どうだった？</p>
+  <div class="fb-btns">
+    <button onclick="rate(this,'good')">😊 良かった</button>
+    <button onclick="rate(this,'ok')">😐 普通</button>
+    <button onclick="rate(this,'bad')">🤔 イマイチ</button>
+  </div>
+  <textarea id="fbtext" placeholder="ひとことあれば（音声入力でもOK）"></textarea>
+  <br><button class="fb-send" onclick="sendText()">送信</button>
+  <div class="fb-done" id="fbdone"></div>
+</div>
+<footer><a href="./">過去のダイジェスト</a></footer>
+<script>
+var NTFY = "https://ntfy.sh", FB_TOPIC = "seika-news-fb-goutfsay", DATE = "2026-11-13";
+function post(payload, done) {
+  fetch(NTFY, { method: "POST",
+    body: JSON.stringify({ topic: FB_TOPIC, message: JSON.stringify(payload) }) })
+    .then(function(){ document.getElementById("fbdone").textContent = done; })
+    .catch(function(){ document.getElementById("fbdone").textContent = "送信に失敗、また後で"; });
+}
+function rate(btn, r) {
+  var btns = document.querySelectorAll(".fb-btns button");
+  for (var i = 0; i < btns.length; i++) btns[i].classList.remove("sel");
+  btn.classList.add("sel");
+  post({ date: DATE, rating: r }, "記録したよ、ありがとう");
+}
+function sendText() {
+  var t = document.getElementById("fbtext").value.trim();
+  if (!t) return;
+  post({ date: DATE, text: t }, "コメント送信したよ");
+  document.getElementById("fbtext").value = "";
+}
+</script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
